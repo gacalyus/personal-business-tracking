@@ -1,13 +1,16 @@
 import '../Styles/Navbar.css'
-import { Button } from '@mui/material';
+//import logo from '../logo.svg';
+import AssuredWorkloadIcon from '@mui/icons-material/AssuredWorkload';
 
 
 function Navbar() {
     return (
         <div className="Navbar">
-
-            <Button variant="contained">Contained</Button>
-            <text className='def' >23</text>
+            <div className="NavbarLogo">
+            <AssuredWorkloadIcon sx={{ mr: 2 }} className="navbarIcon" color='secondary' size />
+            <text className="navbarTitle">Business Tracking and Prioritization System</text>
+            </div>
+            <hr />
         </div>
     );
 }

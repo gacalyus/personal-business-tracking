@@ -1,4 +1,39 @@
-.def {
-  color: red;
+.NavbarLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navbarTitle {
+  font-size: 24px;
+  color: #0a0a86;
+  font-weight: 600;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbarIcon {
+  width: 3rem !important;
+  height: 3rem !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+hr {
+  width: 100%;
+  border-style: solid;
+  color: gray;
 }
 /*# sourceMappingURL=Navbar.css.map */
