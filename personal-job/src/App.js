@@ -1,16 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-import { Button } from '@mui/material';
+
+import { Container, Grid } from '@mui/material';
+import Create from './Components/Create';
+import JobList from './Components/JobList';
+import Navbar from './Components/Navbar';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Button variant="contained">Contained</Button>
-        <img src={logo} className="App-logo" alt="logo" />
 
-      </header>
-    </div>
+  return (
+    <Container style={{ display: "flex" }} maxWidth="xl">
+      <Grid mt={5} container spacing={2}>
+        <Grid item xs={12}>
+          <Navbar />
+        </Grid>
+        <Grid item xs={12}>
+          <Create />
+        </Grid>
+        <Grid item xs={12}>
+          <JobList />
+        </Grid>
+      </Grid>
+    </ Container >
   );
 }
 
