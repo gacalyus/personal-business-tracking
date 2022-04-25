@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACV,KAAK,EAAE,cAAc;EACrB,OAAO,EAAE,YAAY;EACrB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,KAAK,EAAE,OAAO;EACd,gBAAgB,EAAE,OAAO;EACzB,eAAe,EAAE,WAAW;EAC5B,MAAM,EAAE,iBAAiB;EACzB,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "Create.scss"
+    ],
+    "names": [],
+    "file": "Create.css"
+}

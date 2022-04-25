@@ -23,12 +23,7 @@
 .navbarIcon {
   width: 3rem !important;
   height: 3rem !important;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin-top: 10px;
 }
 
 hr {
